@@ -19,7 +19,6 @@
 }
 
 #pragma mark - Start Homework Here
-// TODO: Override methods from the 'Responding to View Events' section of the UIViewController documentation. Don't forget to call super!
 
 -(void) viewWillAppear:(BOOL)animated {
     NSLog(@"%s",__PRETTY_FUNCTION__);

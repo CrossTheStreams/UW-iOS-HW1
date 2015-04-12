@@ -22,6 +22,24 @@
 }
 
 #pragma mark - Start Homework Here
-// TODO: Override methods from the 'Responding to View Events' section of the UIViewController documentation. Don't forget to call super!
+-(void) viewWillAppear:(BOOL)animated {
+    NSLog(@"%s",__PRETTY_FUNCTION__);
+    [super viewWillAppear:animated];
+}
+
+-(void) viewDidAppear:(BOOL)animated {
+    NSLog(@"%s",__PRETTY_FUNCTION__);
+    [super viewDidAppear:animated];
+}
+
+-(void) viewWillDisappear:(BOOL)animated {
+    NSLog(@"%s",__PRETTY_FUNCTION__);
+    [super viewWillDisappear:animated];
+}
+
+-(void) viewDidDisappear:(BOOL)animated {
+    NSLog(@"%s",__PRETTY_FUNCTION__);
+    [super viewDidDisappear:animated];
+}
 
 @end

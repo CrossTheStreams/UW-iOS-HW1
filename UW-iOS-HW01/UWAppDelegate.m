@@ -24,7 +24,6 @@
  }
 
 #pragma mark - Start Homework Here
-// TODO: Implement methods from the 'Monitoring App State Changes' secion of the UIApplicationDelegate documentation.
 
 -(BOOL) application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"%s", __PRETTY_FUNCTION__);
